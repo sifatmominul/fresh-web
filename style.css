@@ -1,0 +1,277 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Poppins", sans-serif;
+}
+/* common css strat */
+li{
+    list-style: none;
+}
+/* common css end */
+.navber1{
+    display: flex;
+    background-color: #FAE3B6;
+}
+.containar{
+    width: 1320px;
+    margin: 0 auto;
+}
+.box{
+    display: flex;
+    justify-content: space-between;
+    padding: 47px 0px;
+    align-items: center;
+}
+.ul{
+    display: flex;
+    column-gap: 50px;
+    color: black;
+    font-size: 24px;
+    font-weight: 600;
+    /* line-height: 36px;
+    text-align: left; */
+}
+.button1{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+color: black;
+/* line-height: 36px;
+text-align: left; */
+background-color: #FAE3B6; 
+border: none;
+border: 1px solid rgb(227, 169, 169);
+border-radius: 10px;
+padding: 6px 16px;
+}
+.button2{
+    font-family: Poppins;
+font-size: 24px;
+font-weight: 600;
+line-height: 36px;
+text-align: left;
+background-color: #FAE3B6;
+border: none;
+border: 1px solid rgb(227, 169, 169);
+border-radius: 10px;
+padding: 6px 16px;
+
+}
+.button2:hover{
+    background-color: red;
+}
+.button1:hover{
+    background-color: rgb(74, 175, 215);
+}
+
+/* banner part */
+.banner{
+    background-color: #FAE3B6;
+    padding-top: 100px;
+    
+}
+.containar2{
+    width: 1320px;
+    margin: 0 auto;
+}
+.box2{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 0px;
+    
+}
+.banner .box2 .left h1{
+    font-size: 64px;
+    color: black;
+    font-weight: 600;
+    width: 534px;
+}
+.banner .box2 .left p{
+    font-size: 22px;
+    color: black;
+    font-weight: 400;
+    width: 531px;
+    padding-top: 38px;
+    padding-bottom: 76px;
+}
+.banner .box2 .left button{
+    color: #ffffff;
+    background-color: black;
+    font-size: 24px;
+    font-weight: 600;
+    padding: 15px 50px;
+    border-radius: 10px;
+    border: none;
+}
+.box2 .left button:hover{
+    background-color: rgb(223, 73, 131);
+    /* color: aqua; */
+}
+.containar3{
+    width: 1320px;
+    margin: 0 auto;
+}
+.collection{
+    padding-bottom: 188px;
+    padding-top: 200px;
+}
+.collection h2{
+    font-size: 64px;
+    font-weight: 700;
+    color: black;
+    font-family: "Frank Ruhl Libre", serif;
+    text-align: center;
+
+}
+.box3{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 28px;
+}
+.c1{
+    position: relative;
+    overflow: hidden;
+    border-radius: 20px;
+}
+.overly{
+    width: 100%;
+    height: 98%;
+    top: 100%;
+    left: 0px;
+    position: absolute;
+    transition: 0.6s;
+    
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+.c1:hover .overly{
+    top: 0px;
+    opacity: 1;
+    
+}
+.overly button{
+    padding: 9px 108px;
+    background-color: white;
+    border-radius: 20px;
+    border: 0;
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+    color: black;
+    font-weight: 400;
+}
+.containar4{
+    width: 1320px;
+    margin: 0 auto;
+}
+.rel{
+    position: relative;
+    margin-bottom: 400px;
+}
+.box4{
+    display: flex;
+    column-gap: 120px;
+    
+    
+}
+.c10{
+    font-size: 64px;
+    font-weight: 700;
+    color: black;
+    font-family: "Frank Ruhl Libre", serif;
+    width: 437px;
+}
+.c11{
+    font-size: 24px;
+    font-weight: 600;
+    color: black;
+    width: 443px;
+    padding-top: 63px;
+}
+.card{
+    width: 793px;
+    height: 280px;
+    background-color: #FAE3B6;
+    display: flex;
+    justify-content: space-around;
+    border-radius: 20px;
+    position: absolute;
+    bottom: -220px;
+    right: 0px;
+    z-index: -1;
+}
+.card h3{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Podkova", serif;
+    color: black;
+}
+.card p{
+    font-size: 28px;
+    font-weight: 500;
+    font-family: "Poppins", sans-serif; 
+    color: black;
+}
+.c12{
+    padding: 30px;
+    margin: 20px;
+}
+.c13{
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    padding: 30px;
+    margin: 20px; 
+}
+.c14{
+    padding: 30px;
+    margin: 20px;
+}
+/* last part strat */
+
+.last{
+    background-color: #CFA485;
+}
+.containar5{
+    width: 1320px;
+    margin: 0 auto;
+    
+}
+.box5{
+    display: flex;
+    column-gap: 20px;
+    padding: 40px 0px;
+}
+.l10{
+    font-size: 64px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: black;
+}
+.l11{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: "Frank Ruhl Libre", serif;
+    color: black;
+    padding: 20px 0px;
+}
+.l12{
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Poppins", sans-serif;
+    color: rgb(251, 249, 249);
+    background-color: black;
+    width: 320px;
+    height: 86px;
+    border-radius: 10px;
+}
+.l12:hover{
+    background-color: rgb(84, 189, 154);
+}
+
+
+
+/* last part end */
